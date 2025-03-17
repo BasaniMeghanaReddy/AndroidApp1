@@ -25,8 +25,13 @@ class MainActivity : AppCompatActivity() {
 
         val implicitButton = findViewById<Button>(R.id.implicitButton)
         implicitButton.setOnClickListener {
-            0
             val intent = Intent("com.example.myandroidapp.OPEN_SECOND_ACTIVITY")
+            startActivity(intent)
+        }
+
+        val viewImageButton = findViewById<Button>(R.id.viewImageButton)
+        viewImageButton.setOnClickListener {
+            val intent = Intent(this, ThirdActivity::class.java)
             startActivity(intent)
         }
     }
