@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         val implicitButton = findViewById<Button>(R.id.implicitButton)
         implicitButton.setOnClickListener {
-            val intent = Intent("com.example.myandroidapp.OPEN_SECOND_ACTIVITY")
+            val intent = Intent("com.example.assignment2.IMPLICIT_ACTIVITY")
             startActivity(intent)
         }
 

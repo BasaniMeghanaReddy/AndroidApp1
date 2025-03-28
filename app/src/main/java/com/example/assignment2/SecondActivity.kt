@@ -14,11 +14,11 @@ class SecondActivity : AppCompatActivity() {
 
         // List of mobile software engineering challenges
         val challenges = listOf(
-            "- High battery consumption due to inefficient code or excessive background processing.",
-            "- Slow app launch times affecting user experience.",
-            "- Memory leaks causing app crashes or sluggish performance.",
-            "- Inefficient API calls leading to network latency." ,
-            "- Large app size due to unoptimized assets and libraries."
+            "- Security Concerns",
+            "- Data Synchronization",
+            "- Performance Optimization",
+            "- Platform Specific Development" ,
+            "- Network Issues"
         )
 
         // Find the TextView and display challenges
