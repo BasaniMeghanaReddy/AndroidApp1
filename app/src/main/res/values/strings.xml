@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Assignment2</string>
+    <string name="mse412_label">Access to MSE challenges</string>
+    <string name="mse412_description">Mobile Software Engineering challenges.</string>
 </resources>
